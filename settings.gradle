@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='Git1'
+rootProject.name='mvp_movies_now_playing'
