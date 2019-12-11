@@ -1,7 +1,7 @@
 package com.example.git1.di;
 
 
-import com.example.mvp_movies_now_playing.view.MainActivity;
+import com.example.git1.MainActivity;
 
 import dagger.Component;
 
