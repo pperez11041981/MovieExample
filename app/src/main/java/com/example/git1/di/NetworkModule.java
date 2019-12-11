@@ -3,10 +3,10 @@ package com.example.git1.di;
 
 import android.content.Context;
 
-import com.example.mvp_movies_now_playing.adapter.RVAdapter;
-import com.example.mvp_movies_now_playing.network.NowPlayingMovieAPI;
-import com.example.mvp_movies_now_playing.presenter.MainActivityPresenter;
-import com.example.mvp_movies_now_playing.presenter.MainViewPresenter;
+import com.example.git1.adapter.RVAdapter;
+import com.example.git1.network.NowPlayingMovieAPI;
+import com.example.git1.presenter.MainActivityPresenter;
+import com.example.git1.presenter.MainViewPresenter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

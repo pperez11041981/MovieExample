@@ -10,8 +10,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.mvp_movies_now_playing.R;
-import com.example.mvp_movies_now_playing.entity.Movie;
+
+import com.example.git1.R;
+import com.example.git1.entity.Movie;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

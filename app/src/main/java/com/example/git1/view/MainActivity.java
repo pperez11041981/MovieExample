@@ -6,13 +6,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.mvp_movies_now_playing.R;
-import com.example.mvp_movies_now_playing.adapter.RVAdapter;
-import com.example.mvp_movies_now_playing.di.DaggerMainComponent;
-import com.example.mvp_movies_now_playing.di.MainModule;
-import com.example.mvp_movies_now_playing.di.NetworkModule;
-import com.example.mvp_movies_now_playing.entity.Movie;
-import com.example.mvp_movies_now_playing.presenter.MainActivityPresenter;
+import com.example.git1.R;
+import com.example.git1.adapter.RVAdapter;
+import com.example.git1.di.DaggerMainComponent;
+import com.example.git1.di.MainModule;
+import com.example.git1.di.NetworkModule;
+import com.example.git1.entity.Movie;
+import com.example.git1.presenter.MainActivityPresenter;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package com.example.git1.view;
 
-import com.example.mvp_movies_now_playing.base.BaseView;
-import com.example.mvp_movies_now_playing.entity.Movie;
+import com.example.git1.base.BaseView;
+import com.example.git1.entity.Movie;
 
 import java.util.List;
 
