@@ -1,6 +1,6 @@
 package com.example.git1.network;
 
-import com.example.mvp_movies_now_playing.entity.NowPlayingMovieResult;
+import com.example.git1.entity.NowPlayingMovieResult;
 
 import java.util.Map;
 

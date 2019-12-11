@@ -1,9 +1,9 @@
 package com.example.git1.presenter;
 
 
-import com.example.mvp_movies_now_playing.entity.NowPlayingMovieResult;
-import com.example.mvp_movies_now_playing.network.NowPlayingMovieAPI;
-import com.example.mvp_movies_now_playing.view.MainActivityView;
+import com.example.git1.entity.NowPlayingMovieResult;
+import com.example.git1.network.NowPlayingMovieAPI;
+import com.example.git1.view.MainActivityView;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,7 +14,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import static com.example.mvp_movies_now_playing.utils.Constant.MOVIEDB_API_KEY;
+import static com.example.git1.utils.Constant.MOVIEDB_API_KEY;
 
 public class MainViewPresenter implements MainActivityPresenter {
 
