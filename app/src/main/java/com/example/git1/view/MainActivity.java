@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         DaggerMainComponent
                 .builder()
                 .networkModule(new NetworkModule())
