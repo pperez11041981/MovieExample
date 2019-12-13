@@ -1,6 +1,7 @@
 package com.example.git1.view;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d("lllll", "main activity");
 
 
         DaggerMainComponent
