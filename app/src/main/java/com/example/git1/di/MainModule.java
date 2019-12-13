@@ -1,6 +1,7 @@
 package com.example.git1.di;
 
 import android.content.Context;
+import android.util.Log;
 
 import dagger.Module;
 import dagger.Provides;
@@ -17,7 +18,7 @@ public class MainModule {
 
     @Provides
     Context provideContext(){
-
+        Log.d("lllll", "main module");
         return context;
     }
 }
