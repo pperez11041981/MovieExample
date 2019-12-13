@@ -2,6 +2,8 @@
 
 package com.example.git1.entity;
 
+import android.util.Log;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -10,6 +12,7 @@ import java.util.List;
 
 
 public class Movie {
+
 
     @SerializedName("popularity")
     @Expose
@@ -64,6 +67,7 @@ public class Movie {
 
     public Movie withPopularity(Double popularity) {
         this.popularity = popularity;
+        Log.d("lllll", "movie entity");
         return this;
     }
 
